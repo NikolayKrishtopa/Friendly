@@ -1,0 +1,58 @@
+$side-padding: 40px;
+$max-width: 1600px;
+
+//colors
+$white: #d8e6f1;
+$black: #14161f;
+
+$pallette_1: #ceab42;
+$pallette_2: #fef159;
+$pallette_3: #fbe8c1;
+$pallette_4: #f7d9fd;
+$pallette_5: #f7c1fe;
+$pallette_6: #bd98fd;
+$pallette_7: #f2bc1c;
+$pallette_8: #feed25;
+$pallette_9: #f5c461;
+$pallette_10: #eda8fa;
+$pallette_11: #ea5efc;
+$pallette_12: #9c64fc;
+
+// breakpoints
+$breakpoint-tablet: 800px;
+$breakpoint-mobile: 480px;
+
+$transition-duration: 0.5s;
+
+@media (max-width: $breakpoint-tablet) {
+  $side-padding: 16px;
+}
+
+$font-content: 'TT Norms', san-serif;
+
+@mixin section($color) {
+  background-color: $color;
+  width: 100%;
+  min-height: calc(100vh - 120px);
+  margin: 0;
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  @media (max-width: $breakpoint-tablet) {
+    padding: 40px 20px;
+  }
+  @media (max-width: $breakpoint-mobile) {
+    padding: 30px 10px;
+  }
+}
+
+@mixin clickable {
+  &:hover {
+    cursor: url('../assets/img/cursor_large.svg'), pointer;
+  }
+}
