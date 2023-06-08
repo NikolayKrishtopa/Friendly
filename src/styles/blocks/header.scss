@@ -1,0 +1,21 @@
+.header {
+  padding: 50px $side-padding;
+  min-height: calc(100vh - 114px);
+  background-color: $pallette_6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  &__title {
+    font-family: $font-main;
+    font-size: 47px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: -0.04em;
+    text-align: center;
+    max-width: 740px;
+  }
+  &__logo {
+    width: 100%;
+  }
+}

@@ -1,5 +1,14 @@
 import React from 'react';
+import Navbar from '../../components/Navbar';
+import Header from '../../components/Header';
+import Intro from '../../components/Intro';
 
 export default function Main() {
-  return <div>Хуй соси губой тряси</div>;
+  return (
+    <>
+      <Navbar />
+      <Header />
+      <Intro />
+    </>
+  );
 }

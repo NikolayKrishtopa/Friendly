@@ -1,0 +1,42 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $black;
+  padding: 100px 0 200px;
+  gap: 300px;
+}
+.intro__text {
+  font-family: $font-main;
+  font-size: 76px;
+  font-weight: 500;
+  line-height: 68px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  color: $white;
+}
+.intro__img {
+  width: 52px;
+  height: 52px;
+}
+.intro__band {
+  padding: 14px 24px;
+  background-color: $accent;
+  display: flex;
+  gap: 0px;
+}
+.intro__band-item-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.intro__band-text {
+  font-family: $font-main;
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: -0.04em;
+  text-align: center;
+  white-space: nowrap;
+}

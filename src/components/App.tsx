@@ -1,9 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Main from '../../pages/Main/Main';
-import NotFound from '../../pages/NotFound/NotFound';
-import '../../index.scss';
-import '../../index.scss';
+import Main from '../pages/Main/Main';
+import NotFound from '../pages/NotFound/NotFound';
 
 export default function App() {
   return (

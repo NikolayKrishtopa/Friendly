@@ -3,4 +3,8 @@
 }
 
 @import './assets/fonts/fonts.scss';
+@import './styles/reset.scss';
 @import './styles/globalVariables.scss';
+@import './styles/blocks/header.scss';
+@import './styles/blocks/navbar.scss';
+@import './styles/blocks/intro.scss';
